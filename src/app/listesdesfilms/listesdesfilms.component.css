@@ -1,0 +1,20 @@
+
+.c{
+    background-color:rgb(224, 216, 216);
+    border-radius: 80%;
+
+}
+.btn-secondary1{
+    color:white;
+}
+h2{
+    text-align: center;
+    color:black;
+}
+  #searchInput {
+    width:300px;/* Ajustez la valeur de la marge selon vos besoins */
+  }
+
+  .a{
+    border-radius: 5px;
+  }

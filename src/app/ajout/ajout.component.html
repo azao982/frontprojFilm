@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un film</title>
+    <!-- Inclure les fichiers CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="my-4 " style="color:black">Ajouter un film</h1>
+    <form [formGroup]="filmForm" >
+            <div class="form-group">
+            <label for="titre">Titre du film:</label>
+            <input type="text" class="form-control" id="titre" placeholder="Entrez le nom du film" formControlName='titre' >
+        </div>
+        <!-- YourComponent.html -->
+
+<div class="form-group">
+    <label for="genre">Genre :</label>
+    <div>
+      <label *ngFor="let genre of genres" class="radio-inline mr-3">
+        <input type="radio" formControlName="genre" [value]="genre" (change)="selectedGenre = genre">
+        {{ genre }}
+      </label>
+    </div>
+  </div>      
+        <div class="form-group">
+            <label for="anneeSortie">Année du sortie:</label>
+            <input type="date" class="form-control" id="anneeSortie" placeholder="Entrez l'année du film" formControlName="anneeSortie">
+        </div>
+        <div class="form-group">
+            <label for="realisateur">Réalisateur:</label>
+            <input type="text" class="form-control" id="realisateur" placeholder="Entrez le realisateur du film" formControlName="realisateur">
+        </div>
+        <div class="form-group">
+            <label for="duree">Durée:</label>
+            <input type="text" class="form-control" id="duree" placeholder="Entrez la duree du film" formControlName="duree">
+        </div>
+        <br>
+        <div class="form-group text-center">
+            <button type="button" (click)="onAjouter()" class="x">Ajouter</button>
+            <button type="button" (click)="retour()" class="btn btn-dark"><i class="fa fa-reply"></i> Retour</button>
+          </div>                 
+    </form>
+</div>
+<!-- Inclure les fichiers JavaScript de Bootstrap (jQuery et Popper.js sont requis) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

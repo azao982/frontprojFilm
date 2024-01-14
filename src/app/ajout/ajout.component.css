@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+input{
+    color: brown;
+}
+label{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+  button {
+    padding: 10px 10px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .x{
+    padding: 10px 10px;
+    margin-right: 1px;
+    height: 44.9px;
+    width: 85px;;
+  }

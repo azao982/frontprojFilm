@@ -1,0 +1,31 @@
+.img {
+  background-image: url('src/assets/bg1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: black;
+}
+
+.ab {
+  color: rgb(73, 73, 73) ;
+  text-align: left; /* Ajout de la propriété pour centrer le texte horizontalement */
+  align-items: center; /* Ajout de la propriété pour centrer le texte verticalement */
+  padding-top: 10px; /* Ajustement de la valeur de padding-top (vous pouvez ajuster selon vos besoins) */
+    margin-left: 250px;
+    font-weight: bolder;
+  font-size: 25px;
+
+}
+.ac{
+  color: rgb(73, 73, 73) ;
+  font-size: 40px;
+  text-align: left; /* Ajout de la propriété pour centrer le texte horizontalement */
+  align-items: center;
+  padding-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+
+  
+}

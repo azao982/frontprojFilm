@@ -1,0 +1,17 @@
+body {
+    background-image: url('/assets/ppp.png');
+    background-size: cover;
+    height: 87vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  } 
+  h2{
+    margin-left:130px;
+    margin-right: 120px;
+    background-color: rgb(163, 162, 162); 
+ } 
+.b{
+color:rgb(49, 48, 48) ;
+font-weight:bold;
+}

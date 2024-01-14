@@ -1,0 +1,18 @@
+.custom-bg-color {
+    background-color:#afaeae;
+  }  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  .xa{
+    margin-left:170px;
+  }
+  body {
+    background-image: url('/assets/bg.png');
+    background-size: cover;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }  
